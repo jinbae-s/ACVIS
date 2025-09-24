@@ -1,0 +1,60 @@
+# -*- coding: utf-8 -*-
+from detectron2.config import CfgNode as CN
+
+
+def add_avism_config(cfg):
+    cfg.DATASETS.DATASET_RATIO = []
+
+    # DataLoader
+    cfg.INPUT.SAMPLING_FRAME_NUM = 2
+    cfg.INPUT.SAMPLING_FRAME_RANGE = 20
+    cfg.INPUT.SAMPLING_FRAME_SHUFFLE = False
+    cfg.INPUT.AUGMENTATIONS = [] # "brightness", "contrast", "saturation", "rotation"
+
+    # Pseudo Data Use
+    cfg.INPUT.PSEUDO = CN()
+    cfg.INPUT.PSEUDO.AUGMENTATIONS = ['rotation']
+    cfg.INPUT.PSEUDO.MIN_SIZE_TRAIN = (480, 512, 544, 576, 608, 640, 672, 704, 736, 768)
+    cfg.INPUT.PSEUDO.MAX_SIZE_TRAIN = 768
+    cfg.INPUT.PSEUDO.MIN_SIZE_TRAIN_SAMPLING = "choice_by_clip"
+    cfg.INPUT.PSEUDO.CROP = CN()
+    cfg.INPUT.PSEUDO.CROP.ENABLED = False
+    cfg.INPUT.PSEUDO.CROP.TYPE = "absolute_range"
+    cfg.INPUT.PSEUDO.CROP.SIZE = (384, 600)
+
+    # LSJ
+    cfg.INPUT.LSJ_AUG = CN()
+    cfg.INPUT.LSJ_AUG.ENABLED = False
+    cfg.INPUT.LSJ_AUG.IMAGE_SIZE = 1024
+    cfg.INPUT.LSJ_AUG.MIN_SCALE = 0.1
+    cfg.INPUT.LSJ_AUG.MAX_SCALE = 2.0
+
+    cfg.INPUT.AUDIO_DIM = 128
+
+    # AVISM
+    cfg.MODEL.AVISM = CN()
+    cfg.MODEL.AVISM.NHEADS = 8
+    cfg.MODEL.AVISM.DROPOUT = 0.0
+    cfg.MODEL.AVISM.DIM_FEEDFORWARD = 2048
+    cfg.MODEL.AVISM.ENC_LAYERS = 6
+    cfg.MODEL.AVISM.DEC_LAYERS = 3
+    cfg.MODEL.AVISM.ENC_WINDOW_SIZE = 0
+    cfg.MODEL.AVISM.PRE_NORM = False
+    cfg.MODEL.AVISM.HIDDEN_DIM = 256
+    cfg.MODEL.AVISM.NUM_OBJECT_QUERIES = 100
+    cfg.MODEL.AVISM.ENFORCE_INPUT_PROJ = True
+
+    cfg.MODEL.AVISM.NO_OBJECT_WEIGHT = 0.1
+    cfg.MODEL.AVISM.DEEP_SUPERVISION = True
+    cfg.MODEL.AVISM.LAST_LAYER_NUM = 3
+    cfg.MODEL.AVISM.MULTI_CLS_ON = True
+    cfg.MODEL.AVISM.APPLY_CLS_THRES = 0.01
+
+    cfg.MODEL.AVISM.SIM_USE_CLIP = True
+    cfg.MODEL.AVISM.SIM_WEIGHT = 0.5
+
+    cfg.MODEL.AVISM.FREEZE_DETECTOR = False
+    cfg.MODEL.AVISM.TEST_RUN_CHUNK_SIZE = 18
+    cfg.MODEL.AVISM.TEST_INTERPOLATE_CHUNK_SIZE = 5
+
+    cfg.MODEL.NUM_CLS = 1
