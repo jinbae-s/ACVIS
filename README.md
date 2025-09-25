@@ -1,6 +1,6 @@
 # Audio-Centric Audiovisual Instance Segmentation
 
-Jinbae Seo, Hyeongjun Kwon, Kwonyoung Kim, Jiyoung Lee, Kwanghoon Sohn
+Jinbae Seo, Hyeongjun Kwon, Kwonyoung Kim, Jiyoung Lee and Kwanghoon Sohn
 
 <div align='center'>
 <img src="./assets/fig1.png" class="interpolation-image" alt="radar." height="50%" width="50%" />
