@@ -2,11 +2,11 @@
 
 Jinbae Seo, Hyeongjun Kwon, Kwonyoung Kim, Jiyoung Lee and Kwanghoon Sohn
 
+The official pytorch implementation of [ACVIS]()
+
 <div align='center'>
 <img src="./assets/fig1.png" class="interpolation-image" alt="radar." height="50%" width="50%" />
 </div>
-
-The official pytorch implementation of [ACVIS]()
 
 ## Installation
 
