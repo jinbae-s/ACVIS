@@ -1,10 +1,14 @@
-# Audio-Centric Audiovisual Instance Segmentation
+# Learning What To Hear: Boosting Sound-Source Association For Robust Audiovisual Instance Segmentation
 
 Jinbae Seo, Hyeongjun Kwon, Kwonyoung Kim, Jiyoung Lee and Kwanghoon Sohn
+
+The official pytorch implementation of [ACVIS](https://arxiv.org/abs/2509.22740)
 
 <div align='center'>
 <img src="./assets/fig1.png" class="interpolation-image" alt="radar." height="50%" width="50%" />
 </div>
+
+## Demo
 
 ## Installation
 
@@ -64,7 +68,15 @@ python demo_video/demo.py --config-file configs/acvis/acvis_saoc.yaml --opts MOD
 ## Citation
 
 ```
-
+@misc{seo2025learninghearboostingsoundsource,
+      title={Learning What To Hear: Boosting Sound-Source Association For Robust Audiovisual Instance Segmentation}, 
+      author={Jinbae Seo and Hyeongjun Kwon and Kwonyoung Kim and Jiyoung Lee and Kwanghoon Sohn},
+      year={2025},
+      eprint={2509.22740},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2509.22740}, 
+}
 ```
 
 ## Acknowledgement
