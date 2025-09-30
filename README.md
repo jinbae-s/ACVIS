@@ -9,6 +9,17 @@ The official pytorch implementation of [ACVIS](https://arxiv.org/abs/2509.22740)
 </div>
 
 ## Demo
+<div align="center">
+
+https://github.com/user-attachments/assets/e1e72e81-0945-442a-b6d8-c552c6beae62
+
+https://github.com/user-attachments/assets/1e872233-6934-41dc-8553-56405b54ae56
+
+https://github.com/user-attachments/assets/d35820fb-6173-461d-ab75-9aa0f8f693c8
+
+https://github.com/user-attachments/assets/f6530e52-5871-45f6-a538-8292865c152a
+
+</div>
 
 ## Installation
 
