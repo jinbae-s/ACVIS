@@ -79,7 +79,7 @@ python demo_video/demo.py --config-file configs/acvis/acvis_saoc.yaml --opts MOD
 ## Citation
 
 ```
-@misc{seo2025learninghearboostingsoundsource,
+@misc{seo2025acvis,
       title={Learning What To Hear: Boosting Sound-Source Association For Robust Audiovisual Instance Segmentation}, 
       author={Jinbae Seo and Hyeongjun Kwon and Kwonyoung Kim and Jiyoung Lee and Kwanghoon Sohn},
       year={2025},
