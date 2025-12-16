@@ -2,7 +2,8 @@
 
 Jinbae Seo, Hyeongjun Kwon, Kwonyoung Kim, Jiyoung Lee and Kwanghoon Sohn
 
-The official pytorch implementation of [ACVIS](https://arxiv.org/abs/2509.22740)
+[![ACVIS](https://img.shields.io/badge/Paper-ACVIS-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2509.22740)
+[![Web Demo](https://img.shields.io/badge/HuggingFace-Demo-yellow.svg?logo=huggingface)](https://huggingface.co/spaces/jinbae-s/ACVIS)
 
 <div align='center'>
 <img src="./assets/fig1.png" class="interpolation-image" alt="radar." height="50%" width="50%" />
