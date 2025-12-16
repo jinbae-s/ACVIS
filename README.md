@@ -2,7 +2,7 @@
 
 Jinbae Seo, Hyeongjun Kwon, Kwonyoung Kim, Jiyoung Lee and Kwanghoon Sohn
 
-[![ACVIS](https://img.shields.io/badge/Paper-ACVIS-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2509.22740)
+[![ACVIS](https://img.shields.io/badge/Paper-ACVIS-red.svg?logo=arXiv)](https://arxiv.org/abs/2509.22740)
 [![Web Demo](https://img.shields.io/badge/HuggingFace-Demo-yellow.svg?logo=huggingface)](https://huggingface.co/spaces/jinbae-s/ACVIS)
 
 <div align='center'>
