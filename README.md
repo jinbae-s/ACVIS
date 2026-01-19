@@ -1,4 +1,4 @@
-# Learning What To Hear: Boosting Sound-Source Association For Robust Audiovisual Instance Segmentation
+# [ICASSP 2026] Learning What To Hear: Boosting Sound-Source Association For Robust Audiovisual Instance Segmentation
 
 [![ACVIS](https://img.shields.io/badge/Paper-ACVIS-red.svg?logo=arXiv)](https://arxiv.org/abs/2509.22740)
 [![Web Demo](https://img.shields.io/badge/HuggingFace-Demo-yellow.svg?logo=huggingface)](https://huggingface.co/spaces/jinbae-s/ACVIS)
